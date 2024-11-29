@@ -1,7 +1,7 @@
 # robosys2024
 ロボットシステム学
 
-# plusコマンド
+# テストコマンド
 [![test](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml)
 
 
