@@ -32,16 +32,16 @@ cd repository
 pip install -r requirements.txt'''
 
 ## 使い方
-実行方法の例
+実行方法の例  
 -git add 〇〇(例としてreverse_text.bash)
--git status
-![スクリーンショット 2024-11-29 152701](https://github.com/user-attachments/assets/98f74022-c81b-42a7-a56d-ea3424ca432d)
--git commit -m "〇〇(例としてadd a command)"
-![スクリーンショット 2024-11-29 152717](https://github.com/user-attachments/assets/e3e8a5ee-b937-466a-853a-616bb9b27e67)
--git log -n 1
-![スクリーンショット 2024-11-29 152736](https://github.com/user-attachments/assets/7375b3f9-0a10-42e7-877c-11d66d8e18b2)
--git push
-![スクリーンショット 2024-11-29 152751](https://github.com/user-attachments/assets/89035795-045a-489a-bfb0-4c47e9a4f95a)
+-git status  
+![スクリーンショット 2024-11-29 152701](https://github.com/user-attachments/assets/98f74022-c81b-42a7-a56d-ea3424ca432d)  
+-git commit -m "〇〇(例としてadd a command)"  
+![スクリーンショット 2024-11-29 152717](https://github.com/user-attachments/assets/e3e8a5ee-b937-466a-853a-616bb9b27e67)  
+-git log -n 1  
+![スクリーンショット 2024-11-29 152736](https://github.com/user-attachments/assets/7375b3f9-0a10-42e7-877c-11d66d8e18b2)  
+-git push  
+![スクリーンショット 2024-11-29 152751](https://github.com/user-attachments/assets/89035795-045a-489a-bfb0-4c47e9a4f95a)  
 
 
 ## サンプル
