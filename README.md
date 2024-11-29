@@ -16,18 +16,18 @@
 
 ## 概要
 - このプロジェクトは何をするものか?
-- なぜこのプロジェクトが必要なのか?
-- 主な機能は何か?
+  このプロジェクトは、文字列を反転させるシンプルなスクリプトです。  
+ユーザーが入力したテキストをリアルタイムで反転し、標準出力に表示します。    　
 
 ## インストール方法
 以下の手順でプロジェクトをローカル閑居いうにインストールしてください。
 
 '''bash
 リポジトリをクローン
-git clone https://github.com/username/repository.git
+git clone https://github.com/Kaz-stark/robosys2024.git
 
 ディレクトリに移動
-cd repository
+cd robosys2024
 
 依存関係をインストール
 pip install -r requirements.txt'''
@@ -49,14 +49,15 @@ pip install -r requirements.txt'''
 このプロジェクトはMITライセンスのもとで公開されています。
 
 ## 貢献
-貢献方法は以下の通りです。
-1.フォークスする。
-2.新しいブランチを作成する。(git checkout -b feature/YourFeature)
-3.コードをコミットする。(git commit -m 'Add some feature')
-4.プッシュする。(git push origin feature/YourFeature)
-5.プルリクエストを作成する。
+貢献方法は以下の通りです。  
+1.フォークスする。  
+2.新しいブランチを作成する。(git branch feather/new-feather)  
+⇒ 新しいブランチに切り替える。(git checkout/switch feather/new-feather)  
+3.コードをコミットする。(git commit -m "Add some feature")  
+4.プッシュする。(git push)  
+5.プルリクエストを作成する。  
 
-## クレジット
-(使用したライブラリや貢献者の名前を記す。)
+## 参考文献・参考リンク  
+- [5分でマスター]初心者はまずREADMEを書け[テンプレート付き] https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f　　
+ 　 テンプレート文の項目を参考にした
 
-Duc
