@@ -1,0 +1,34 @@
+name: Test reverse_text.bash
+
+on:
+  push:
+    paths:
+      - "reverse_text.bash"  # reverse_text.bash が変更されたときのみ実行
+  pull_request:
+    paths:
+      - "reverse_text.bash"  # プルリクエストで変更されたときも実行
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # コードをチェックアウト
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      # 必要ならば依存関係をインストール
+      - name: Set execute permission
+        run: chmod +x reverse_text.bash
+
+      # テストを実行
+      - name: Run reverse_text.bash test
+        run: |
+          echo "abc" | ./reverse_text.bash > output.txt
+          if grep -q "cba" output.txt; then
+            echo "Test passed!"
+          else
+            echo "Test failed!"
+            exit 1
+          fi
+
