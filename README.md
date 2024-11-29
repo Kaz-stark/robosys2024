@@ -33,7 +33,13 @@ pip install -r requirements.txt'''
 
 ## 使い方
 実行方法の例
-'''python main.py --option value'''
+1，git add 〇〇(例としてreverse_text.bash)
+![スクリーンショット 2024-11-29 152701](https://github.com/user-attachments/assets/98f74022-c81b-42a7-a56d-ea3424ca432d)
+
+2，git status
+3，git commit -m "〇〇(例としてadd a command)"
+4，git log -n 1
+5，git push
 
 ## サンプル
 このプロジェクトはMITライセンスのもとで公開されています。
