@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 # SPDX-FileCopyrightText: 2024 Kazuya Ochiai
-# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-License-Identifier
 
 # ユーザーへのメッセージを表示
 echo -n "反転させたい文字を入力してください: "
@@ -13,4 +13,5 @@ reversed_line=$(echo "$input_text" | rev)
 
 #反転結果を出力
 echo "$reversed_line"
+
 
