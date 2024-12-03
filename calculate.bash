@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 # SPXD-FileCopyrightText: 2024 Kazuya Ochiai
-# SPDX-License-Identifier
+# SPDX-License-Identifier: BSD-3-Clause
 
 
 #!/bin/bash
