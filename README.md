@@ -19,43 +19,37 @@
   このプロジェクトは、文字列を反転させるシンプルなスクリプトです。  
 ユーザーが入力したテキストをリアルタイムで反転し、標準出力に表示します。    　
 
-## インストール方法
-以下の手順でプロジェクトをローカル閑居いうにインストールしてください。
+
+## 使い方
+以下の手順で実行する。
 
 '''bash
 リポジトリをクローン
-git clone https://github.com/Kaz-stark/robosys2024.git
+$git clone https://github.com/Kaz-stark/robosys2024.git
 
 ディレクトリに移動
-cd robosys2024
+$cd robosys2024
 
-依存関係をインストール
-pip install -r requirements.txt'''
+実行権限を付与する
+$chmod +x robosys2024'''
 
-## 使い方
-実行方法の例  
-- git add 〇〇(例としてreverse_text.bash)
-- git status  
-![スクリーンショット 2024-11-29 152701](https://github.com/user-attachments/assets/98f74022-c81b-42a7-a56d-ea3424ca432d)  
-- git commit -m "〇〇(例としてadd a command)"  
-![スクリーンショット 2024-11-29 152717](https://github.com/user-attachments/assets/e3e8a5ee-b937-466a-853a-616bb9b27e67)  
-- git log -n 1  
-![スクリーンショット 2024-11-29 152736](https://github.com/user-attachments/assets/7375b3f9-0a10-42e7-877c-11d66d8e18b2)  
-- git push  
-![スクリーンショット 2024-11-29 152751](https://github.com/user-attachments/assets/89035795-045a-489a-bfb0-4c47e9a4f95a)  
+   
 
 
 ## サンプル
 このプロジェクトはMITライセンスのもとで公開されています。
 
 ## 貢献
-貢献方法は以下の通りです。  
+貢献の方法は以下の通りです。  
 1.フォークスする。  
 2.新しいブランチを作成する。(git branch feather/new-feather)  
 ⇒ 新しいブランチに切り替える。(git checkout/switch feather/new-feather)  
 3.コードをコミットする。(git commit -m "Add some feature")  
 4.プッシュする。(git push)  
-5.プルリクエストを作成する。  
+5.プルリクエストを作成する。
+
+## ライセンス
+以下はBSD-3-Clauseライセンスの日本語訳です。法的拘束力を持つのは原文（英語）です。  
 
 ## 参考文献・参考リンク  
 - [5分でマスター]初心者はまずREADMEを書け[テンプレート付き] https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f　　
