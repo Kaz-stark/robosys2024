@@ -2,9 +2,6 @@
 # SPXD-FileCopyrightText: 2024 Kazuya Ochiai
 # SPDX-License-Identifier: BSD-3-Clause
 
-
-#!/bin/bash
-
 # 標準入力から数値を受け取り、配列に格納
 numbers=($(cat))
 
