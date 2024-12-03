@@ -1,43 +1,9 @@
-on:
-  push:
-    branches:
-      - main  # main ブランチに push されたとき
-  pull_request:
-    branches:
-      - main  # main ブランチへの pull request 時にもテストを実行
-
+name: test_calculate
+on: push
 jobs:
   test:
-    runs-on: ubuntu-latest  # Ubuntu 上でテストを実行
-
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2  # リポジトリをチェックアウト
-
-      - name: Set up Bash
-        run: sudo apt-get install bash  # Bash がインストールされていない場合に備えて
-
-          #- name: Run calculate.bash test
-          #run: |
-          # テスト用のサンプル入力と期待される出力を定義
-          #echo "テスト開始"
-
-          # テスト1: calculate.bash スクリプトが正しく実行されるか
-          #./calculate.bash <(echo 5 3 2) > result.txt
-          # 期待される結果をここで比較（例: 結果ファイルと期待値を比較）
-          #if grep -q "期待される結果" result.txt; then
-          # echo "テスト1成功"
-          #else
-          # echo "テスト1失敗"
-          # exit 1  # テスト失敗でジョブを終了
-          #fi
-
-          # テスト2: 他のテスト（任意）
-          #./calculate.bash <(echo 10 20 30) > result2.txt
-          #if grep -q "期待される結果2" result2.txt; then
-          # echo "テスト2成功"
-          #else
-          # echo "テスト2失敗"
-          # exit 1
-          #fi
-
+    - uses: actions/checkout@v3
+    - name: All test
+      run: bash -xv ./calculate.bash
