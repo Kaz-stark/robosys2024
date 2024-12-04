@@ -2,7 +2,7 @@
 ロボットシステム学
 
 # テストコマンド
-[![test](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml) [![test_calculate](https://github.com/Kaz-stark/robosys2024/actions/workflows/test_calculate.yml/badge.svg)](https://github.com/Kaz-stark/robosys2024/actions/workflows/test_calculate.yml)<img src="https://img.shields.io/badge/-Python-F2C63C.svg?logo=python&style=for-the-badge">
+[![test](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml) [![test_calculate](https://github.com/Kaz-stark/robosys2024/actions/workflows/test_calculate.yml/badge.svg)](https://github.com/Kaz-stark/robosys2024/actions/workflows/test_calculate.yml) <img src="https://img.shields.io/badge/-Python-F2C63C.svg?logo=python&style=for-the-badge">
 
 
 ## 必要なソフトウェア
