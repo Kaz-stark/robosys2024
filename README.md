@@ -1,7 +1,7 @@
 # robosys2024
 ロボットシステム学
 
-# テストコマンド
+# 計算コマンド
 [![test](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml) [![test_calculate](https://github.com/Kaz-stark/robosys2024/actions/workflows/test_calculate.yml/badge.svg)](https://github.com/Kaz-stark/robosys2024/actions/workflows/test_calculate.yml) <img src="https://img.shields.io/badge/-Python-F2C63C.svg?logo=python&style=for-the-badge">
 
 
@@ -15,9 +15,7 @@
 © 2024 Kazuya Ochiai
 
 ## 概要
-- このプロジェクトは何をするものか?
-  このプロジェクトは、文字列を反転させるシンプルなスクリプトです。  
-ユーザーが入力したテキストをリアルタイムで反転し、標準出力に表示します。    　
+-  このプロジェクトは、標準入力で得た数字の分散と標準偏差を計算して出力します。    　
 
 
 ## 使い方
@@ -63,3 +61,5 @@ $chmod +x robosys2024
 - [5分でマスター]初心者はまずREADMEを書け[テンプレート付き] https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f　　
  　 テンプレート文の項目を参考にした
 
+- [全プロジェクトで重宝されるイケてるREADMEを作成しよう！] https://qiita.com/shun198/items/c983c713452c041ef787
+    テンプレート文の項目を参考にした
