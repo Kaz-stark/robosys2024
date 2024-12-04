@@ -2,12 +2,12 @@
 ロボットシステム学
 
 # テストコマンド
-[![test](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml)
+[![test](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/Kaz-stark/robosys2024/actions/workflows/test.yml) <img src="https://img.shields.io/badge/-Python-F2C63C.svg?logo=python&style=for-the-badge">
 
 
 ## 必要なソフトウェア
 - PYTHON
-  - テスト済みバージョン: 3.7~3.10
+  - テスト済みバージョン: 3.7~3.10, calculate
 
  ## テスト環境
  - Ubuntu 24.04 LTS
@@ -23,7 +23,7 @@
 ## 使い方
 以下の手順で実行する。
 
-'''bash
+```
 リポジトリをクローン
 $git clone https://github.com/Kaz-stark/robosys2024.git
 
@@ -31,11 +31,19 @@ $git clone https://github.com/Kaz-stark/robosys2024.git
 $cd robosys2024
 
 実行権限を付与する
-$chmod +x robosys2024'''
+$chmod +x robosys2024
+```
 
+## コマンド一覧
+- .github/workflows  
+- COPYING  
+- LICENSE  
+- README.md  
+- claculate.bash  
+- plus  
+- test.bash
+- test1.bash
    
-
-
 ## サンプル
 このプロジェクトはMITライセンスのもとで公開されています。
 
