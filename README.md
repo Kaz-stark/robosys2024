@@ -55,7 +55,7 @@ $chmod +x robosys2024
 5.プルリクエストを作成する。
 
 ## ライセンス
-Copyright (c) <2024> , <Kazuya Ochiai>
+Copyright (c) <2024> , Kazuya Ochiai
 All rights reserved.
 
 ソースコード形式かバイナリ形式か、変更するかしないかを問わず、以下の条件を満たす場合に限り、再頒布および使用が許可されます。
