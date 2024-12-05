@@ -69,10 +69,13 @@ All rights reserved.
 
 ## 参考文献・参考リンク  
 - [5分でマスター]初心者はまずREADMEを書け[テンプレート付き] https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f  　　
- 　 閲覧日:2024/12/04  テンプレート文の項目を参考にした
+ 　 閲覧日:2024/12/04  
+    テンプレート文の項目を参考にした
 
 - [全プロジェクトで重宝されるイケてるREADMEを作成しよう！] https://qiita.com/shun198/items/c983c713452c041ef787  
-    閲覧日:2024/12/04  テンプレート文の項目を参考にした
+    閲覧日:2024/12/04  
+    テンプレート文の項目を参考にした
 
 - [3条項BSDライセンス] https://licenses.opensource.jp/BSD-3-Clause/BSD-3-Clause.html  
-    閲覧日:2024/12/05  ライセンステンプレートを使用
+    閲覧日:2024/12/05  
+    ライセンステンプレートを使用
