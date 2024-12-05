@@ -34,7 +34,6 @@ $chmod +x robosys2024
 
 ## コマンド一覧
 - .github/workflows  
-- COPYING  
 - LICENSE  
 - README.md  
 - claculate.bash  
