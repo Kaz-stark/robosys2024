@@ -45,7 +45,7 @@ $chmod +x robosys2024
 このプロジェクトはMITライセンスのもとで公開されています。
 
 ## 貢献
-貢献の方法は以下の通りです。  
+貢献の方法は以下のものが挙げられます。  
 1.フォークスする。  
 2.新しいブランチを作成する。(git branch feather/new-feather)  
 ⇒ 新しいブランチに切り替える。(git checkout/switch feather/new-feather)  
